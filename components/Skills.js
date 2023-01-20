@@ -1,5 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
+import React, { useEffect, useState } from 'react'
+import userData from '../data/data'
+import SkillsItem from './SkillsItem'
 
 function Skills() {
   return (
@@ -8,21 +9,9 @@ function Skills() {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
         <h2 className='py-4'>What I can do</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image 
-                  src='/../public/assets/logo.png' 
-                  width="100" 
-                  height="100" 
-                  alt='/'
-                />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
+          <SkillsItem
+            userData={userData}
+          />
         </div>
       </div>
     </div>

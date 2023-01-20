@@ -38,6 +38,44 @@ const userData = {
       imgUrl: "/public/vercel.svg",
     },
   ],
+  skills: [
+    {
+      name: "HTML",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "CSS",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "JavaScript",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "React",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "TailWind",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "Sass",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "PostCSS",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "PostSQL",
+      imgUrl: "logo.png",
+    },
+    {
+      name: "Github",
+      imgUrl: "logo.png",
+    },
+  ],
   about: {
     title:
       "I'm a software developer that loves building products and web applications",
