@@ -41,39 +41,35 @@ const userData = {
   skills: [
     {
       name: "HTML",
-      imgUrl: "logo.png",
+      imgUrl: "html.png",
     },
     {
       name: "CSS",
-      imgUrl: "logo.png",
+      imgUrl: "css.png",
     },
     {
       name: "JavaScript",
-      imgUrl: "logo.png",
+      imgUrl: "js.png",
     },
     {
       name: "React",
-      imgUrl: "logo.png",
+      imgUrl: "react.png",
     },
     {
       name: "TailWind",
-      imgUrl: "logo.png",
+      imgUrl: "tailwind.png",
     },
     {
       name: "Sass",
-      imgUrl: "logo.png",
-    },
-    {
-      name: "PostCSS",
-      imgUrl: "logo.png",
+      imgUrl: "sass.png",
     },
     {
       name: "PostSQL",
-      imgUrl: "logo.png",
+      imgUrl: "sql-server.png",
     },
     {
       name: "Github",
-      imgUrl: "logo.png",
+      imgUrl: "github.png",
     },
   ],
   about: {
